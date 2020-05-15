@@ -1,6 +1,5 @@
 html,
 body {
-    max-width: 100%;
     min-height: 100vh;
     min-width: 100vw;
     overflow-x: hidden;
@@ -65,8 +64,8 @@ header {
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 40%;
-    padding-right: 10%;
+    width: 540px;
+    padding-right: 16%;
 }
 .slides ul {
     list-style:none;
@@ -236,6 +235,8 @@ main {
     max-height: 500px;
     display: flex;
     margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .main_text {
@@ -266,46 +267,43 @@ main {
 
 }
 form {
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 40%;
-    padding-right: 10%;
-
+    margin: 0 auto;
+    max-width: 50%;
+    margin-right: 15%;
+    margin-top: 5%;
 }
 .first_name {
-    width: 26%;
-    max-width: 255px;
-    padding: 20px 20px;
-    margin-top: 100px;
+    padding-left: 20px;
+    margin-right: 26px;
+    width: 255px;
+    height: 60px;
     color: black;
     font-size: 0.89em;
     line-height: 19px;
     border-radius: 6px;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 .first_name:focus {
     border: 1px solid #ed4c5c;
 }
 
 .last_name {
-    width: 26%;
-    max-width: 255px;
-    padding: 20px 20px;
-    margin-top: 117px;
-    margin-left: 20px;
+    padding-left: 20px;
+    width: 255px;
+    height: 60px;
     color:black;
     font-size: 0.89em;
     line-height: 19px;
     border-radius: 6px;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 .last_name:focus {
     border: 1px solid #ed4c5c;
 }
 .phone {
-    width: 72%;
-    max-width: 398px;
+    width: 540px;
     padding: 20px 20px;
     margin-top: 20px;
     color:black;
@@ -313,14 +311,14 @@ form {
     line-height: 19px;
     border-radius: 6px;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 .phone:focus {
     border: 1px solid #ed4c5c;
 }
 
 #select {
-    width: 79%;
-    max-width: 442px;
+    width: 540px;
     padding: 20px 20px;
     margin-top: 20px;
     color:black;
@@ -462,5 +460,5 @@ footer {
 .services,
 .getintouch,
 .wesupport {
-    margin-left: 11%;
+    margin-left: 13%;
 }
